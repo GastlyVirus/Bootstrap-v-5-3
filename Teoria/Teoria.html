@@ -61,3 +61,65 @@ Es importante mencionar que la grilla de Bootstrap se basa en CSS flexbox y util
 
 
 
+// ¿Que es el footer de bootstrap?
+El footer de Bootstrap es una parte de la estructura de un sitio web construido con el framework Bootstrap. El footer (pie de página) se encuentra en la parte inferior de la página y generalmente contiene información adicional, enlaces, derechos de autor y otros elementos relevantes para el sitio web.
+
+En Bootstrap, el footer se implementa utilizando la clase "footer" junto con otras clases de utilidad de Bootstrap para definir su apariencia y estilo. Por ejemplo, puedes usar la clase "bg-dark" para establecer un fondo oscuro, la clase "text-light" para cambiar el color del texto a claro, y la clase "p-3" para agregar un espacio de relleno alrededor del contenido del footer.
+
+Aquí tienes un ejemplo básico de cómo se podría estructurar el código HTML para un footer utilizando Bootstrap:
+
+<footer class="footer bg-dark text-light p-3">
+  <div class="container">
+    <span>&copy; 2023 Mi Sitio Web</span>
+    <ul class="list-unstyled">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </div>
+</footer>
+
+En este ejemplo, el footer está envuelto en un elemento <footer> con la clase "footer" de Bootstrap. Dentro del footer, hay un contenedor <div class="container"> que ayuda a centrar y limitar el ancho del contenido del footer. El contenido puede incluir un texto de derechos de autor <span> y una lista de enlaces <ul>.
+
+Puedes personalizar el footer según tus necesidades, añadiendo más elementos, estilos y clases de Bootstrap. El footer es una forma común de proporcionar información adicional y navegación a los visitantes del sitio web, y Bootstrap proporciona un conjunto de clases y estilos predefinidos para ayudarte a diseñarlo de manera rápida y sencilla.
+
+
+
+// ¿Que es el navbar de bootstrap?
+El navbar (barra de navegación) de Bootstrap es un componente que permite crear fácilmente una barra de navegación responsive y adaptable para sitios web. Es una de las características más utilizadas de Bootstrap y proporciona una navegación intuitiva y amigable para los usuarios.
+
+El navbar de Bootstrap utiliza una estructura HTML y clases de CSS predefinidas para definir su apariencia y comportamiento. Puedes personalizarlo según tus necesidades, pero la estructura básica sigue un formato común.
+
+Aquí tienes un ejemplo básico de cómo se podría estructurar el código HTML para un navbar utilizando Bootstrap:
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mi Sitio Web</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+En este ejemplo, el navbar se envuelve en un elemento <nav> con las clases "navbar" y "navbar-expand-lg" de Bootstrap. Esto indica que el navbar será visible en pantallas grandes (lg) y se expandirá automáticamente cuando se reduzca el tamaño de la pantalla.
+
+Dentro del navbar, hay un contenedor <div class="container"> que ayuda a centrar y limitar el ancho del contenido del navbar. El contenido del navbar incluye un enlace de marca <a class="navbar-brand"> que generalmente se utiliza para mostrar el nombre o el logotipo del sitio web.
+
+También se utiliza un botón de hamburguesa <button class="navbar-toggler"> con la clase "navbar-toggler" que permite expandir y contraer el navbar en pantallas más pequeñas.
+
+La navegación se define utilizando una lista desordenada <ul> con la clase "navbar-nav". Cada elemento de navegación se representa como un <li class="nav-item"> y contiene un enlace <a class="nav-link">. Puedes agregar elementos adicionales a la lista para crear más opciones de navegación.
+
+Bootstrap proporciona una amplia variedad de clases y opciones para personalizar aún más el navbar, como agregar colores, estilos de menú desplegable, menús de navegación fijos en la parte superior y más. Puedes consultar la documentación oficial de Bootstrap para obtener más detalles y ejemplos avanzados de cómo utilizar el navbar.
