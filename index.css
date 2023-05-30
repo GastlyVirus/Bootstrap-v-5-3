@@ -2,6 +2,19 @@ body {
   background: black;
   color: #fafafa;
 }
+
+body {
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Para navegadores que soportan la propiedad scrollbar-width */
+  -ms-overflow-style: none; /* Para navegadores Internet Explorer y Microsoft Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Para navegadores basados en WebKit (Chrome, Safari, Opera) */
+}
+
 #mainCarousel .carousel-inner img {
   max-height: 70vh;
   object-fit: cover;
@@ -17,7 +30,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fafafa;
 }
 
@@ -26,11 +39,7 @@ body {
   height: 100%;
 }
 
-.historiap {
-  color: #fafafa;
-}
-
-.card-body {
+.card-body, .historiap {
   color: #fafafa;
 }
 
