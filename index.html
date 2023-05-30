@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,48 +10,47 @@
   <link rel="icon" href="./Imagenes/logo-ico.ico">
   <title>Arctic Monkeys</title>
 </head>
-
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
   <!-- Inicio del header -->
-  <nav class="navbar navbar-expand-lg bg-dark bg-gradient" data-bs-theme="dark">
+  <nav id="headerNavbar" class="navbar navbar-expand-lg bg-dark bg-gradient fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand ms-5" ref="#"><img src="./Imagenes/logo-navbar.png" alt="Arctic Monkeys" width="120"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand ms-5" ref="#"><img src="./Imagenes/logo-navbar.png" alt="Arctic Monkeys" height="130"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto mx-5 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link historiap" aria-current="page" href="#">Historia</a>
+            <a class="nav-link historiap" aria-current="page" href="#historia">Historia</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle historiap" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle historiap" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Miembros
             </a>
             <ul class="dropdown-menu dropdown-menu-end bg-dark bg-gradient">
-              <li><a class="dropdown-item historiap" href="#">Alex Turner</a></li>
-              <li><a class="dropdown-item historiap" href="#">Matt Helders</a></li>
-              <li><a class="dropdown-item historiap" href="#">Nick O'Malley</a></li>
-              <li><a class="dropdown-item historiap" href="#">Jamie Cook</a></li>
+              <li><a class="dropdown-item historiap" href="#AlexTurner">Alex Turner</a></li>
+              <li><a class="dropdown-item historiap" href="#MattHelders">Matt Helders</a></li>
+              <li><a class="dropdown-item historiap" href="#NickOMalley">Nick O'Malley</a></li>
+              <li><a class="dropdown-item historiap" href="#JamieCook">Jamie Cook</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle historiap" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle historiap" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Discografia
             </a>
             <ul class="dropdown-menu dropdown-menu-end bg-dark bg-gradient">
-              <li><a class="dropdown-item historiap" href="#">Whatever People Say I Am, That's What I'm Not</a></li>
-              <li><a class="dropdown-item historiap" href="#">Favourite Worst Nightmare</a></li>
-              <li><a class="dropdown-item historiap" href="#">Humbug</a></li>
-              <li><a class="dropdown-item historiap" href="#">Suck It and See</a></li>
-              <li><a class="dropdown-item historiap" href="#">AM</a></li>
-              <li><a class="dropdown-item historiap" href="#">Tranquility Base Hotel & Casino</a></li>
-              <li><a class="dropdown-item historiap" href="#">The Car</a></li>
+              <li><a class="dropdown-item historiap" href="#WhateverPeopleSayIAmThatsWhatImNot">Whatever People Say I Am, That's What I'm Not</a></li>
+              <li><a class="dropdown-item historiap" href="#FavouriteWorstNightmare">Favourite Worst Nightmare</a></li>
+              <li><a class="dropdown-item historiap" href="#Humbug">Humbug</a></li>
+              <li><a class="dropdown-item historiap" href="#SuckItandSee">Suck It and See</a></li>
+              <li><a class="dropdown-item historiap" href="#AM">AM</a></li>
+              <li><a class="dropdown-item historiap" href="#TranquilityBaseHotel&Casino">Tranquility Base Hotel & Casino</a></li>
+              <li><a class="dropdown-item historiap" href="#TheCar">The Car</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link historiap" aria-current="page" href="#">Tienda</a>
+            <a class="nav-link historiap" aria-current="page" href="#tienda">Tienda</a>
           </li>
         </ul>
       </div>
@@ -113,7 +111,7 @@
   <!-- Fin del carousel -->
 
   <!-- Inicio de historia -->
-  <section>
+  <section id="historia">
     <div class="mt-5 mb-3 text-center">
       <h2>Historia</h2>
     </div>
@@ -197,7 +195,7 @@
   <!-- Fin de historia -->
 
   <!-- Inicio de miembros -->
-  <section id="miembros">
+  <section>
     <div class="container mt-5 mb-5">
       <div class="row">
         <div class="col text-center mb-3">
@@ -206,7 +204,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12 col-md-6 col-xxl-3 mb-3">
+        <div id="AlexTurner" class="col-12 col-md-6 col-xxl-3 mb-3">
           <div class="card bg-dark bg-gradient">
             <img src="./Imagenes/miembro-alex.jpg" class="card-img-top" alt="Alex Turner">
             <div class="card-body">
@@ -223,7 +221,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-xxl-3 mb-3">
+        <div id="MattHelders" class="col-12 col-md-6 col-xxl-3 mb-3">
           <div class="card bg-dark bg-gradient text-white">
             <img src="./Imagenes/miembro-matt.jpg" class="card-img-top" alt="Matt Helders">
             <div class="card-body">
@@ -243,7 +241,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-xxl-3 mb-3">
+        <div id="NickOMalley" class="col-12 col-md-6 col-xxl-3 mb-3">
           <div class="card bg-dark bg-gradient text-white">
             <img src="./Imagenes/miembro-nick.jpg" class="card-img-top" alt="Nick O'Malley">
             <div class="card-body">
@@ -262,7 +260,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-xxl-3 mb-3">
+        <div id="JamieCook" class="col-12 col-md-6 col-xxl-3 mb-3">
           <div class="card bg-dark bg-gradient text-white">
             <img src="./Imagenes/miembro-jamie.jpg" class="card-img-top" alt="Jamie Cook">
             <div class="card-body">
@@ -285,14 +283,14 @@
 
 
   <!-- Inicio de discografia  -->
-  <section id="discografia">
+  <section>
     <div class="container-fluid mt-5">
       <div class="row">
         <div class="col text-center mb-3">
           <h2>Discografía</h2>
         </div>
       </div>
-      <div class="row bg-dark bg-gradient align-items-center mb-3">
+      <div id="WhateverPeopleSayIAmThatsWhatImNot" class="row bg-dark bg-gradient align-items-center mb-3">
         <div class="col ps-0 pe-0">
           <img src="./Imagenes/1- Whatever People Say I Am Thats What Im Not.jpg"
             alt="Whatever People Say I Am Thats What Im Not">
@@ -326,7 +324,7 @@
       </div>
 
 
-      <div class="row bg-dark bg-gradient align-items-center mb-3">
+      <div id="FavouriteWorstNightmare" class="row bg-dark bg-gradient align-items-center mb-3">
         <div class="col ps-5 text-start">
           <h3>Favourite Worst Nightmare</h3>
           <p class="d-none d-xl-none d-xxl-block">es el segundo álbum de estudio de Arctic Monkeys. Fue lanzado por
@@ -354,7 +352,7 @@
       </div>
 
 
-      <div class="row bg-dark bg-gradient align-items-center mb-3">
+      <div id="Humbug" class="row bg-dark bg-gradient align-items-center mb-3">
         <div class="col ps-0 pe-0">
           <img src="./Imagenes/3- Humbug.jpg" alt="Humbug">
         </div>
@@ -381,7 +379,7 @@
       </div>
 
 
-      <div class="row bg-dark bg-gradient align-items-center mb-3">
+      <div id="SuckItandSee" class="row bg-dark bg-gradient align-items-center mb-3">
         <div class="col ps-5 text-start">
           <h3>Suck It and See</h3>
           <p class="d-none d-xl-none d-xxl-block">es el cuarto álbum de estudio de la banda inglesa Arctic Monkeys. Fue
@@ -413,7 +411,7 @@
       </div>
 
 
-      <div class="row bg-dark bg-gradient align-items-center mb-3">
+      <div id="AM" class="row bg-dark bg-gradient align-items-center mb-3">
         <div class="col ps-0 pe-0">
           <img src="./Imagenes/5- AM .jpg" alt="AM">
         </div>
@@ -443,7 +441,7 @@
       </div>
 
 
-      <div class="row bg-dark bg-gradient align-items-center mb-3">
+      <div id="TranquilityBaseHotel&Casino" class="row bg-dark bg-gradient align-items-center mb-3">
         <div class="col ps-5 text-start">
           <h3>Tranquility Base Hotel & Casino</h3>
           <p class="d-none d-xl-none d-xxl-block">es el sexto álbum de estudio de la banda de rock inglesa Arctic
@@ -468,7 +466,7 @@
       </div>
 
 
-      <div class="row bg-dark bg-gradient align-items-center">
+      <div id="TheCar" class="row bg-dark bg-gradient align-items-center">
         <div class="col ps-0 pe-0">
           <img src="./Imagenes/7- The Car.jpg" alt="The Car">
         </div>
@@ -496,7 +494,7 @@
 
 
   <!-- Inicio de store -->
-  <section>
+  <section id="tienda">
     <div class="container mt-5">
       <div class="row">
         <div class="col text-center mb-3">
@@ -561,5 +559,4 @@
     crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
-
 </html>
