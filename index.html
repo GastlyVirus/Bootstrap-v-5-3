@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +11,7 @@
   <link rel="icon" href="./Imagenes/logo-ico.ico">
   <title>Arctic Monkeys</title>
 </head>
+
 <body data-bs-spy="scroll" data-bs-target="#navbar">
   <!-- Inicio del header -->
   <nav class="navbar navbar-expand-lg bg-dark bg-gradient fixed-top" data-bs-theme="dark">
@@ -40,12 +42,14 @@
               Discografia
             </a>
             <ul class="dropdown-menu dropdown-menu-end bg-dark bg-gradient">
-              <li><a class="dropdown-item historiap" href="#WhateverPeopleSayIAmThatsWhatImNot">Whatever People Say I Am, That's What I'm Not</a></li>
+              <li><a class="dropdown-item historiap" href="#WhateverPeopleSayIAmThatsWhatImNot">Whatever People Say I
+                  Am, That's What I'm Not</a></li>
               <li><a class="dropdown-item historiap" href="#FavouriteWorstNightmare">Favourite Worst Nightmare</a></li>
               <li><a class="dropdown-item historiap" href="#Humbug">Humbug</a></li>
               <li><a class="dropdown-item historiap" href="#SuckItandSee">Suck It and See</a></li>
               <li><a class="dropdown-item historiap" href="#AM">AM</a></li>
-              <li><a class="dropdown-item historiap" href="#TranquilityBaseHotel&Casino">Tranquility Base Hotel & Casino</a></li>
+              <li><a class="dropdown-item historiap" href="#TranquilityBaseHotel&Casino">Tranquility Base Hotel &
+                  Casino</a></li>
               <li><a class="dropdown-item historiap" href="#TheCar">The Car</a></li>
             </ul>
           </li>
@@ -57,7 +61,6 @@
     </div>
   </nav>
   <!-- Fin del header -->
-
 
   <!-- Inico del carousel -->
   <main id="mainCarousel">
@@ -111,14 +114,15 @@
   <!-- Fin del carousel -->
 
   <!-- Inicio de historia -->
-  <section id="historia">
-    <div class="mt-5 mb-3 text-center">
+  <section id="historia" class="mt-5 mb-5">
+    <div class="mb-3 text-center">
       <h2>Historia</h2>
     </div>
     <div class="container">
       <div class="row">
         <div class="card bg-dark bg-gradient text-right historiap">
-          <p class="mt-2">Los Arctic Monkeys se formaron a mediados del 2001 por un grupo de amigos conformado por Alex Turner,
+          <p class="mt-2">Los Arctic Monkeys se formaron a mediados del 2001 por un grupo de amigos conformado por Alex
+            Turner,
             Matt Helders y Andy Nicholson. Turner y Helders eran vecinos y mejores amigos, y conocieron a Nicholson en
             la secundaria. Turner, quien creció en el seno de una familia musical debido a que su padre era un
             profesor de música, inició tocando la guitarra en una banda instrumental, con Helders en la batería,
@@ -195,8 +199,8 @@
   <!-- Fin de historia -->
 
   <!-- Inicio de miembros -->
-  <section>
-    <div class="container mt-5 mb-5">
+  <section class="mt-5 mb-5">
+    <div class="container">
       <div class="row">
         <div class="col text-center mb-3">
           <h2>Miembros</h2>
@@ -281,221 +285,66 @@
   </section>
   <!-- Fin de miembros -->
 
-
   <!-- Inicio de discografia  -->
-  <section>
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col text-center mb-3">
+  <section class="mt-5 mb-5">
+    <div class="container">
+      <div class="row mt-3 mb-3">
+        <div class="col text-center">
           <h2>Discografía</h2>
         </div>
       </div>
-      <div id="WhateverPeopleSayIAmThatsWhatImNot" class="row bg-dark bg-gradient align-items-center mb-3">
-        <div class="col ps-0 pe-0">
-          <img src="./Imagenes/1- Whatever People Say I Am Thats What Im Not.jpg"
-            alt="Whatever People Say I Am Thats What Im Not">
+      <div id="carouselExampleAutoplaying" class="carousel slide mt-3" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes/1- Whatever People Say I Am Thats What Im Not.jpg" class="d-block mx-auto"
+              alt="Whatever People Say I Am Thats What Im Not" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              onclick="cambiarModal('album1')">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/2- Favourite Worst Nightmare .jpg" class="d-block mx-auto"
+              alt="Favourite Worst Nightmare" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              onclick="cambiarModal('album2')">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/3- Humbug.jpg" class="d-block mx-auto" alt="Humbug" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" onclick="cambiarModal('album3')">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/4- Suck It and See.jpg" class="d-block mx-auto" alt="Suck It and See"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cambiarModal('album4')">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/5- AM .jpg" class="d-block mx-auto" alt="AM" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" onclick="cambiarModal('album5')">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/6- Tranquility Base Hotel and Casino .jpg" class="d-block mx-auto"
+              alt="Tranquility Base Hotel and Casino" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              onclick="cambiarModal('album6')">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/7- The Car.jpg" class="d-block mx-auto" alt="The Car" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" onclick="cambiarModal('album7')">
+          </div>
         </div>
-        <div class="col pe-5 text-end">
-          <h3>Whatever People Say I Am, That's What I'm Not</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el álbum debut de la banda de rock inglesa Arctic Monkeys, lanzado
-            el 23 de enero de 2006 bajo el sello
-            Domino Records y grabado en Chapel Studios, Lincolnshire y 2 Fly Studios, Sheffield. El disco se convertiría
-            en el álbum debut de venta más rápida en toda la historia del Reino Unido, superando así el álbum homónimo
-            del grupo Elastica, vendiendo más de 360.000 copias en su primera semana de lanzamiento, y desde entonces
-            manteniéndose como el álbum debut de venta más rápida por una banda. El álbum es séxtuple platino en el
-            Reino Unido.</p>
-          <p class="d-none d-xl-none d-xxl-block">El álbum incluye las dos canciones (Fake Tales of San Francisco y From
-            the Ritz to the Rubble) que
-            componían el EP debut de la banda, Five Minutes with Arctic Monkeys, así como los dos primeros sencillos de
-            la banda los cuales quedaron en #1 en el Reino Unido, I Bet You Look Good on the Dancefloor y When the Sun
-            Goes Down.</p>
-          <p class="d-none d-xl-none d-xxl-block">Ganaría el Mercury Prize al mejor álbum en 2006, y estaría en la
-            posición #371 en la lista de los 500
-            mejores álbumes de todos los tiempos según Rolling Stone. En 2013, Rolling Stone lo posicionaría en el #30
-            de su lista «100 Best Debut Albums of All Time».</p>
-          <a href="https://music.apple.com/es/album/whatever-people-say-i-am-thats-what-im-not/111153953"
-            target="_blank">
-            <span id="boot-icon" class="bi bi-apple pe-3"></span>
-          </a>
-          <a href="https://open.spotify.com/album/0ndGMh4twJNzPpr5XtHTR2?si=Y0CRpUz3RWaxT5UACbhooQ" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-
-
-      <div id="FavouriteWorstNightmare" class="row bg-dark bg-gradient align-items-center mb-3">
-        <div class="col ps-5 text-start">
-          <h3>Favourite Worst Nightmare</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el segundo álbum de estudio de Arctic Monkeys. Fue lanzado por
-            primera vez en Japón el 18 de abril de
-            2007 y grabado en Miloco Studios con productores como James Ford y Mike Crossey. En su primera semana, el
-            álbum vendió más de 200.000 copias, emulando lo sucedido con Whatever People Say I Am, That's What I'm Not.
-            “Brianstorm”, lanzado el 16 de abril de 2007, es el primer sencillo del álbum. Alex Turner describió las
-            nuevas canciones como "muy diferentes de la última vez”, agregando que el sonido de algunos tracks son "un
-            poco como "From the Ritz to the Rubble", "The View from the Afternoon", ese tipo de cosas." El 29 de abril
-            de 2007, “Favourite Worst Nightmare” llegó al puesto número #1 en UK Albums Chart. Además, los 12 temas del
-            álbum quedaron en el Top 200 de UK Singles Chart, llegando “Brianstorm” al puesto número #2 y “If You Were
-            There, Beware” al puesto número #189. El 27 de abril de 2007 tienen un total de 18 temas en el Top 200.
-            «Fluorescent Adolescent» y "505" entran en el Top 75, alcanzando los puestos número #60 y #74
-            respectivamente.</p>
-          <a href="https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm?si=nZjbGcMBRwePHq9AS_BzLg" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-          <a href="https://music.apple.com/us/album/favourite-worst-nightmare/251499221" target="_blank">
-            <span id="boot-icon" class="bi bi-apple ps-3"></span>
-          </a>
-        </div>
-        <div class="col pe-0 ps-0 text-end ">
-          <img src="./Imagenes/2- Favourite Worst Nightmare .jpg" alt="Favourite Worst Nightmare">
-        </div>
-      </div>
-
-
-      <div id="Humbug" class="row bg-dark bg-gradient align-items-center mb-3">
-        <div class="col ps-0 pe-0">
-          <img src="./Imagenes/3- Humbug.jpg" alt="Humbug">
-        </div>
-        <div class="col pe-5 text-end">
-          <h3>Humbug</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el tercer álbum de estudio de la banda inglesa de indie rock Arctic
-            Monkeys lanzado el 19 de
-            agosto
-            de 2009 por Domino Records. La banda comenzó a escribir canciones para el álbum a partir del verano de 2008,
-            y
-            lo terminó completamente en primavera del 2009. Como su álbum pasado, Favourite Worst Nightmare (2007),
-            Humbug
-            fue lanzado primeramente en Japón el 19 de agosto de 2009, seguido por Australia, Brasil, Irlanda y Alemania
-            el 21 de agosto de 2009. Fue luego lanzado en el Reino Unido el 24 de agosto de 2009, en los Estados Unidos
-            un
-            día después y en Grecia el 31 de agosto.</p>
-          <a href="https://music.apple.com/us/album/humbug/335649043?l=es" target="_blank">
-            <span id="boot-icon" class="bi bi-apple pe-3"></span>
-          </a>
-          <a href="https://open.spotify.com/album/5ZnOKznPxZTWuMusR4tmGG?si=_djATQ4NQRKxsDoJodimPQ" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-        </div>
-      </div>
-
-
-      <div id="SuckItandSee" class="row bg-dark bg-gradient align-items-center mb-3">
-        <div class="col ps-5 text-start">
-          <h3>Suck It and See</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el cuarto álbum de estudio de la banda inglesa Arctic Monkeys. Fue
-            lanzado oficialmente el 6 de junio de
-            2011 aunque para el 17 de mayo de 2011 el disco se había filtrado y ya se podía descargar de varios lugares.
-          </p>
-          <p class="d-none d-xl-none d-xxl-block">Suck It and See ha recibido críticas positivas de los críticos, con
-            una
-            calificación promedio de 74% en
-            Metacritic , y ha cumplido con un éxito notable en público, el álbum fue directo al número 1 en su primera
-            semana en el Reino Unido, además de ser generalmente alabado como un "retorno a la forma", después del "más
-            difícil" tercer álbum de la banda, Humbug. NME ha argumentado sobre el arte de tapa del álbum, dándole el
-            nombre de uno de los peores 50 en la historia. Además la portada del álbum fue censurada, poniendo de fondo
-            solo las palabras "Suck It and See". En julio, el álbum ganó el premio Mojo para el Mejor Álbum de 2011.
-            También recibió una crítica muy positiva por parte de coda musical. El álbum vendió más de 82 000 unidades
-            en su primera semana en el Reino Unido y fue directo al número uno. En su segunda semana, vendió más 34 910
-            unidades en el Reino Unido. En general, el álbum vendió 154 000 unidades en su primera semana en todo el
-            mundo.</p>
-          <a href="https://open.spotify.com/album/2ym2jcqckXqWeTDoxz3Kst?si=GSTs4ozoR9CGWm8N8YWd1w" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-          <a href="https://music.apple.com/us/album/suck-it-and-see/434497770?l=es" target="_blank">
-            <span id="boot-icon" class="bi bi-apple ps-3"></span>
-          </a>
-        </div>
-        <div class="col pe-0 ps-0 text-end ">
-          <img src="./Imagenes/4- Suck It and See.jpg" alt="Suck It and See">
-        </div>
-      </div>
-
-
-      <div id="AM" class="row bg-dark bg-gradient align-items-center mb-3">
-        <div class="col ps-0 pe-0">
-          <img src="./Imagenes/5- AM .jpg" alt="AM">
-        </div>
-        <div class="col pe-5 text-end">
-          <h3>AM</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el quinto álbum de estudio de la banda inglesa de Indie Rock,
-            Arctic
-            Monkeys. Fue lanzado el 9 de
-            septiembre de 2013, bajo el sello Domino Records. El 15 de julio de 2013, revelaron la portada del álbum. El
-            disco cuenta con las colaboraciones de Josh Homme, Bill Ryder-Jones y Pete Thomas. Fue producido por James
-            Ford y coproducido por Ross Orton en los estudios Sage & Sound Recording en Los Ángeles y Rancho de la Luna
-            en Joshua Tree, California.</p>
-          <p class="d-none d-xl-none d-xxl-block">El álbum recibió elogios de la crítica. Fue nominado para el 2013
-            Mercury Prize al mejor álbum, y aparece
-            en el número 449 en la lista de los 500 mejores álbumes de todos los tiempos, según la revista NME.
-            Comercialmente, AM se ha convertido en el álbum más exitoso de Arctic Monkeys hasta la fecha, encabezó las
-            listas en varios países, y llegó a las diez primeras posiciones en muchos más. En el Reino Unido, Arctic
-            Monkeys rompió un récord con AM, convirtiéndose en la primera banda indie en debutar en el número uno en el
-            Reino Unido con sus cinco primeros álbumes.</p>
-          <a href="https://music.apple.com/us/album/am/663097964?l=es" target="_blank">
-            <span id="boot-icon" class="bi bi-apple pe-3"></span>
-          </a>
-          <a href="https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=cbBECWMaQ5GQJf8acu91DA" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-        </div>
-      </div>
-
-
-      <div id="TranquilityBaseHotel&Casino" class="row bg-dark bg-gradient align-items-center mb-3">
-        <div class="col ps-5 text-start">
-          <h3>Tranquility Base Hotel & Casino</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el sexto álbum de estudio de la banda de rock inglesa Arctic
-            Monkeys, lanzado el 11 de mayo de 2018 por
-            Domino Records. El disco sería completamente compuesto en 2016 por el vocalista de la banda, Alex Turner, en
-            un piano Steinway Vertegrand en su casa de Los Ángeles, siendo producido un año más tarde por él mismo y
-            James Ford, entre las ciudades de Los Ángeles, París y Londres. El álbum además cuenta con colaboración de
-            múltiples artistas invitados, incluyendo a Tom Rowley, Loren Humphrey, James Righton, Zach Dawes, Tyler
-            Parkford y Cam Avery. Turner también diseñó la portada, que representa el complejo turístico con recortes de
-            cartón y un magnetófono; el nombre del álbum hace referencia a la Base Tranquilidad, lugar del alunizaje del
-            Apolo 11.</p>
-          <a href="https://open.spotify.com/album/1jeMiSeSnNS0Oys375qegp?si=sph-tpGETBK1L39ifF5e7A" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-          <a href="https://music.apple.com/us/album/tranquility-base-hotel-casino/1367926252?l=es" target="_blank">
-            <span id="boot-icon" class="bi bi-apple ps-3"></span>
-          </a>
-        </div>
-        <div class="col pe-0 ps-0 text-end ">
-          <img src="./Imagenes/6- Tranquility Base Hotel and Casino .jpg" alt="Tranquility Base Hotel & Casino">
-        </div>
-      </div>
-
-
-      <div id="TheCar" class="row bg-dark bg-gradient align-items-center">
-        <div class="col ps-0 pe-0">
-          <img src="./Imagenes/7- The Car.jpg" alt="The Car">
-        </div>
-        <div class="col pe-5 text-end">
-          <h3>The Car</h3>
-          <p class="d-none d-xl-none d-xxl-block">es el séptimo álbum de estudio de la banda de rock inglesa Arctic
-            Monkeys, publicado el 21 de octubre de
-            2022 por Domino Records. El disco está compuesto por el vocalista de la banda, Alex Turner, con producción
-            de James Ford, y fue grabado en las ciudades de París y Londres en el verano de 2021.
-            La portada del álbum es una fotografía tomada por el baterista de la banda, Matt Helders que fue publicada
-            en un artículo del 2019.</p>
-          <a href="https://music.apple.com/us/album/the-car/1639369016?l=es" target="_blank">
-            <span id="boot-icon" class="bi bi-apple pe-3"></span>
-          </a>
-          <a href="https://open.spotify.com/album/2GROf0WKoP5Er2M9RXVNNs?si=r0QdOLLiTNWMiEpbNIzbQQ" target="_blank">
-            <span id="boot-icon" class="bi bi-spotify"></span>
-          </a>
-        </div>
-      </div>
-
-
-    </div>
   </section>
   <!-- Fin de discografia -->
 
 
   <!-- Inicio de store -->
-  <section id="tienda">
-    <div class="container mt-5">
+  <section id="tienda" class="mt-5 mb-5">
+    <div class="container">
       <div class="row">
         <div class="col text-center mb-3">
           <h2>Tienda</h2>
@@ -551,9 +400,42 @@
   </section>
   <!-- Fin de store -->
 
-
   <!-- Iinicio del footer -->
   <!-- Fin del footer -->
+
+  <!-- Inicio del modal -->
+  <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-dark bg-gradient">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">TITULO</h1>
+        </div>
+        <div class="modal-body">
+          TEXTO
+        </div>
+        <div class="container text-center mb-3">
+          <div class="row">
+            <div class="col">
+              <a id="spotify" target="_blank">
+                <span id="boot-icon" class="bi bi-spotify"></span>
+              </a>
+            </div>
+            <div class="col">
+              <a id="apple" target="_blank">
+                <span id="boot-icon" class="bi bi-apple"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del modal -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
