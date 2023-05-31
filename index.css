@@ -48,3 +48,12 @@ body::-webkit-scrollbar {
   font-size: 1.5rem;
   color: #fafafa;
 }
+
+#footer{
+  height: 25%;
+}
+
+#footer #boot-icon{
+  font-size: 2rem;
+  color: #fafafa;
+}
