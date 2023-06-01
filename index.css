@@ -51,6 +51,11 @@ body::-webkit-scrollbar {
   color: #fafafa;
 }
 
+#carouselExampleAutoplaying img,
+#miembros img {
+  cursor: pointer;
+}
+
 #footer {
   height: 20%;
 }
