@@ -64,8 +64,8 @@ function cambiarModal(id) {
       "https://open.spotify.com/album/2GROf0WKoP5Er2M9RXVNNs?si=r0QdOLLiTNWMiEpbNIzbQQ";
   }
 
-  let modalTitulo = document.getElementById("exampleModalLabel");
-  let modalTexto = document.querySelector(".modal-body");
+  let modalTitulo = document.getElementById("modalTitulo");
+  let modalTexto = document.querySelector(".modalTexto");
   let modalApple = document.getElementById("apple");
   let modalSpotify = document.getElementById("spotify");
 
@@ -73,4 +73,29 @@ function cambiarModal(id) {
   modalTexto.textContent = texto;
   modalApple.href = apple;
   modalSpotify.href = spotify;
+}
+
+function cambioMiembroFoto(id) {
+  let miembro;
+  let foto;
+
+  if (id === "foto1") {
+    miembro = "Alex Tuner";
+    foto = "./Imagenes/miembro-alex.jpg";
+  } else if (id === "foto2") {
+    miembro = "Matt Helders";
+    foto = "./Imagenes/miembro-matt.jpg";
+  } else if (id === "foto3") {
+    miembro = "Nick O'Malley";
+    foto = "./Imagenes/miembro-nick.jpg";
+  } else if (id === "foto4") {
+    miembro = "Jamie Cook";
+    foto = "./Imagenes/miembro-jamie.jpg";
+  }
+
+  let tituloMiembro = document.getElementById("tituloMiembro");
+  let fotoMiembro = document.getElementById("fotoMiembro");
+
+  tituloMiembro.textContent = miembro;
+  fotoMiembro.src = foto;
 }
