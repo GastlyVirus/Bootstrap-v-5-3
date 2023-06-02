@@ -57,10 +57,16 @@ body::-webkit-scrollbar {
 }
 
 #footer {
-  height: 20%;
+  height: 25%;
 }
 
 #footer #boot-icon {
   font-size: 1.5rem;
   color: #fafafa;
+}
+
+#cArcticMonkeys {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 0.8rem;
 }
